@@ -88,7 +88,7 @@ jobs:
           cat >> .config <<EOF
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks=y
           CONFIG_PACKAGE_luci-app-flowoffload=y
-          luci-app-vlmcsd
+          CONFIG_PACKAGE_luci-app-vlmcsd=y
           EOF
           
           #
